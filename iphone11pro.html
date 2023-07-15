@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobiShop | Grab Your Cell </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+          <div class="container">
+              <div class="navbar">
+                  <div class="logo">
+                  <a href="index.html">   <img src="images\white.jpg" alt="Company logo" width="125px"></a>
+                  </div>
+                  <nav>
+                    <ul id="MenuItems">
+                      <li><a href="index.html">Home </a></li>
+                      <li><a href="">Products </a></li>
+                      <li><a href="">About </a></li>
+                      <li><a href="">Contact </a></li>
+                      <li><a href="">Account </a></li>
+                    </ul>
+                  </nav>
+                  <img src="images\cart.png" alt="Cart" width="30px" height="30px">
+                  <img src="images\menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
+              </div>
+           </div>
+
+<!----------single product details------------>
+
+          <div class="small-container single-product" >
+             <div class="row">
+                <div class="col-2">
+                   <img src="images\flagships\iphone11promax\ip1.jpeg" alt="iphone 11 pro max" width="100%" id="ProductImg">
+                   <div class="small-img-row">
+                     <div class="small-img-col">
+                        <img src="images\flagships\iphone11promax\ip1.jpeg" width="100%"  height="180px"  class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="images\flagships\iphone11promax\ip2.jpeg" width="100%" height="180px"  class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="images\flagships\iphone11promax\ip3.jpeg" width="100%"  height="180px" class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="images\flagships\iphone11promax\ip4.jpeg" width="100%" height="180px"  class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="images\flagships\iphone11promax\ip5.jpeg" width="100%"  height="180px" class="small-img">
+                     </div>
+                   </div>
+                </div>
+                <div class="col-2">
+                    <p>Home / iphone 11 pro max </p>
+                    <h1>iphone 11 pro max(Silver)</h1>
+                    <h4>₹1,50,800</h4>
+                    <select>
+                      <option>5120GB Storage</option>
+                      <option>256GB Storage</option>
+                      <option>128GB Storage</option>
+
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add To Cart</a>
+                    <h3>Product Details</h3>
+                    <br>
+                    <p> Handset, EarPods with Lightning Connector, USB-C to Lightning Cable, 18W USB-C Power Adapter, Documentation .
+Display Size
+16.51 cm (6.5 inch)
+Resolution
+2688 x 1242 Pixels Internal Storage
+512 GB
+ Features
+Triple 12MP Ultra Wide, Wide and Telephoto Cameras, Ultra Wide: f/2.4 Aperture and 120Degree Field of View, Wide: f/1.8 Aperture, Telephoto: f/2.0 Aperture, Portrait Mode with Advanced Bokeh and Depth Control, Portrait Lighting with Six Effects (Natural, Studio, Contour, Stage, Stage Mono, High-key Mono), Dual Optical Image Stabilisation (Wide and Telephoto), Five Element Lens (Ultra Wide), Six-element Lens (Wide and Telephoto), Brighter True Tone flash with Slow Sync, Panorama (up to 64MP), 100% Focus Pixels (Wide), Night Mode, Auto Adjustments, Next Generation Smart HDR for Photos, Wide Colour Capture for Photos and Live Photos, Advanced Red Eye Correction, Photo Geotagging, Auto Image Stabilisation, Burst Mode, Image Formats Captured: HEIF and JPEG
+                      </p>
+                </div>
+             </div>
+          </div>
+
+
+
+
+
+<!---------- Footer---------->
+                <div class="footer">
+                    <div class="container">
+                      <div class="row">
+                        <div class="footer-col-1">
+                          <h3>Download Our App</h3>
+                          <p>Download App for Android and ios mobile phones</p>
+                          <div class="app-logo">
+                            <img src="images\play-store.png" alt="Play Store">
+                            <img src="images\app-store.png" alt="App store">
+                          </div>
+                        </div>
+                        <div class="footer-col-2">
+                          <img src="images\black.jpg" alt="MobiShop" >
+                          <p>Our Purpose is To Deliver The Greatest And Latest Technologies In Your Hand At An Agressive Price
+                          <br>Efficiently And MaintainingThe Quality Of The Product. Welcome To The Techno-World </p>
+                        </div>
+                        <div class="footer-col-3">
+                          <h3>Useful Links</h3>
+                          <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                          </ul>
+                        </div>
+                        <div class="footer-col-4">
+                          <h3>Follow us</h3>
+                          <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                          </ul>
+                        </div>
+
+                      </div>
+                      <hr>
+                      <p class="copyright">Copyright 2020 - MobiShop(Debdeep Rc,IT,Roll-46)</p>
+
+                    </div>
+                </div>
+
+
+
+
+<!----------js for toggle menu---------->
+                  <script>
+                      var MenuItems = document.getElementById("MenuItems");
+
+                      MenuItems.style.maxHeight = "0px";
+
+                      function menutoggle(){
+                        if (MenuItems.style.maxHeight == "0px") {
+                            MenuItems.style.maxHeight = "200px";
+                         }
+                        else {
+                            MenuItems.style.maxHeight = "0px";
+                        }
+                      }
+                  </script>
+<!----------js for pdt gallery effect---------->
+<script>
+  var ProductImg = document.getElementById("ProductImg");
+  var SmallImg = document.getElementsByClassName('small-img');
+
+    SmallImg[0].onclick = function()
+    {
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function()
+    {
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function()
+    {
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function()
+    {
+        ProductImg.src = SmallImg[3].src;
+    }
+    SmallImg[4].onclick = function()
+    {
+        ProductImg.src = SmallImg[4].src;
+    }
+
+</script>
+
+  </body>
+</html>

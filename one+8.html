@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobiShop | Grab Your Cell </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+          <div class="container">
+              <div class="navbar">
+                  <div class="logo">
+                    <a href="index.html">  <img src="images\white.jpg" alt="Company logo" width="125px"></a> 
+                  </div>
+                  <nav>
+                    <ul id="MenuItems">
+                      <li><a href="index.html">Home </a></li>
+                      <li><a href="">Products </a></li>
+                      <li><a href="">About </a></li>
+                      <li><a href="">Contact </a></li>
+                      <li><a href="">Account </a></li>
+                    </ul>
+                  </nav>
+                  <img src="images\cart.png" alt="Cart" width="30px" height="30px">
+                  <img src="images\menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
+              </div>
+           </div>
+
+<!----------single product details------------>
+
+          <div class="small-container single-product" >
+             <div class="row">
+                <div class="col-2">
+                   <img src="images\one plus\o1.jpg" alt="OnePlus 8 Pro" width="100%" id="ProductImg">
+                   <div class="small-img-row">
+                     <div class="small-img-col">
+                        <img src="images\one plus\o1.jpg" width="100%"  class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="images\one plus\o2.jpg" width="100%" class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="images\one plus\o3.jpg" width="100%" class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="images\one plus\o4.jpg" width="100%" class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="images\one plus\o5.jpg" width="100%" class="small-img">
+                     </div>
+                   </div>
+                </div>
+                <div class="col-2">
+                    <p>Home / One Plus 8 Pro</p>
+                    <h1>OnePlus 8 Pro (Onyx Black)</h1>
+                    <h4>₹54,999</h4>
+                    <select>
+                        <option>8GB RAM+128GB Storage</option>
+                        <option>12GB RAM+256GB Storage</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add To Cart</a>
+                    <h3>Product Details</h3>
+                    <br>
+                    <p>48MP rear camera with 4k video at 30/60 fps, 1080p video at 30/60 fps, super slow motion: 720p video at 480 fps, 1080p video at 240fps, time-lapse: 1080p 30fps, 4k 30fps, cine aspect ratio video recording, video hdr, cat&dog face detect & focus, ultrashot hdr, nightscape, super micro, portrait, pro mode, panorama, ai scene detection, raw image, audio zoom, audio 3d, infrared photography camera | 16MP front camera
+                      17.22 centimeters (6.78-inch) 120Hz fluid display with 3168 x 1440 pixels resolution, 513 ppi pixel density and vibrant color effect color support .Memory, Storage & SIM: 8GB RAM | 128GB internal memory | Dual SIM (nano+nano) dual-standby (5G+5G) .Oxygen OS based on Android v10 operating system with 2.86GHz of clock speed with Qualcomm Snapdragon 865, powered by Kryo 585 CPU octa core processor, Adreno 650
+                      4510mAH lithium-ion battery . 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase .Box also includes: Warp charge 30t power adapter, warp type-c cable (support usb 2.0), quick start guide, welcome letter, safety information and warranty card, logo sticker, case, screen protector (pre-applied), sim tray ejector<br>OnePlus 8 Pro with Alexa Built-in provides hands-free access to Alexa while on-the-go. Say “Alexa” to play music, make calls, ask questions, control smart devices and more using just your voice. Download the Alexa app on your OnePlus 8 Pro to start using Alexa hand .
+                    </p>
+                </div>
+             </div>
+          </div>
+
+
+
+
+
+<!---------- Footer---------->
+                <div class="footer">
+                    <div class="container">
+                      <div class="row">
+                        <div class="footer-col-1">
+                          <h3>Download Our App</h3>
+                          <p>Download App for Android and ios mobile phones</p>
+                          <div class="app-logo">
+                            <img src="images\play-store.png" alt="Play Store">
+                            <img src="images\app-store.png" alt="App store">
+                          </div>
+                        </div>
+                        <div class="footer-col-2">
+                          <img src="images\logo.jpg" alt="MobiShop" >
+                          <p>Our Purpose is To Deliver The Greatest And Latest Technologies In Your Hand At An Agressive Price
+                          <br>Efficiently And MaintainingThe Quality Of The Product. Welcome To The Techno-World </p>
+                        </div>
+                        <div class="footer-col-3">
+                          <h3>Useful Links</h3>
+                          <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                          </ul>
+                        </div>
+                        <div class="footer-col-4">
+                          <h3>Follow us</h3>
+                          <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                          </ul>
+                        </div>
+
+                      </div>
+                      <hr>
+                      <p class="copyright">Copyright 2020 - MobiShop(Debdeep Rc,IT,Roll-46)</p>
+
+                    </div>
+                </div>
+
+
+
+
+<!----------js for toggle menu---------->
+                  <script>
+                      var MenuItems = document.getElementById("MenuItems");
+
+                      MenuItems.style.maxHeight = "0px";
+
+                      function menutoggle(){
+                        if (MenuItems.style.maxHeight == "0px") {
+                            MenuItems.style.maxHeight = "200px";
+                         }
+                        else {
+                            MenuItems.style.maxHeight = "0px";
+                        }
+                      }
+                  </script>
+<!----------js for pdt gallery effect---------->
+<script>
+  var ProductImg = document.getElementById("ProductImg");
+  var SmallImg = document.getElementsByClassName('small-img');
+
+    SmallImg[0].onclick = function()
+    {
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function()
+    {
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function()
+    {
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function()
+    {
+        ProductImg.src = SmallImg[3].src;
+    }
+    SmallImg[4].onclick = function()
+    {
+        ProductImg.src = SmallImg[4].src;
+    }
+
+</script>
+
+  </body>
+</html>

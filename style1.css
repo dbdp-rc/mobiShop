@@ -1,0 +1,126 @@
+body{
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    
+}
+h2{
+    font-family: 'Ubuntu';
+    font-size: 5rem;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    
+}
+
+                                                                            /* id */
+                                                                            
+#title {
+    background-color: #dd1f3c;
+    color: white;
+ }
+ /* ShopByPrice  */
+#ShopByPrice{
+   padding:5% 5% 0%;
+}
+/* flash_sales */
+ #flash_sales{
+    padding-top: 7%;
+} 
+
+
+
+
+                                                                            /* class */
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar{
+    padding: 0 0 4.5rem ;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+
+/* Buynow button */
+.buy_now-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* One+ image  */
+.oneplus-img{
+    width: 97.5%;
+    /* transform: rotate(25deg); */
+}
+
+/* ShopByPrice  */
+.price-title{
+    text-align: center;
+     padding:0% 3% 5%; 
+}
+.price{
+    text-align: center;
+    padding: 5%; 
+
+}
+
+/* Flash sales */
+.flash_title{
+    text-align: center;
+    padding:0 3% 5%;
+}
+.flash{
+    text-align: center;
+    padding: 5%;
+    
+}
+.f_img{
+    padding-bottom: 25px;
+}
+
+/* Flagship */
+.flagship_title{
+    text-align: center;
+    padding:0 3% 5%;
+}
+.flagship{
+    text-align: center;
+    padding: 5%;
+}
+.flag_img{
+    padding-bottom: 25px;
+}
+/* Top Picks */
+.top_pick_title{
+    text-align: center;
+    padding: 0 3% 5%;
+}
+.top{
+    text-align: center;
+    padding: 5%;
+}
+.top_img{
+    padding-bottom: 25px;
+}
+
+
